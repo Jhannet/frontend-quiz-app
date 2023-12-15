@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/styles.css">
+  
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="toggle-container">
+        <img src="./src/assets/images/icon-sun-dark.svg" alt="Light color">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <img src="./src/assets/images/icon-moon-dark.svg" alt="Dark color">
+      </div>
+    </header>
+    <div class="main">
+      <p class="title">
+        Welcome to the 
+      </p>
+      <p class="title"><strong>Frontend Quiz!</strong></p>
+      <p class="small-letters">Pick a subject to get started.</p>
+    </div>
+    
+    <aside>
+      <div class="vertical-menu">
+        <a href="./src/question.html?quiz-subject=html" tabindex="1">
+          <div class="menu-item-container">
+            <div class="html-icon">
+              <img src="./src/assets/images/icon-html.svg">
+            </div>
+            <div class="medium-text"> HTML </div>
+          </div>
+        </a>
+        <a href="./src/question.html?quiz-subject=css" tabindex="2">
+          <div class="menu-item-container">
+            <div class="css-icon">
+              <img src="./src/assets/images/icon-css.svg">
+            </div>
+            <div class="medium-text"> CSS </div>
+          </div>
+        </a>
+        <a href="./src/question.html?quiz-subject=javascript" tabindex="3">
+          <div class="menu-item-container">
+            <div class="js-icon">
+              <img src="./src/assets/images/icon-js.svg">
+            </div>
+            <div class="medium-text"> JavaScript </div>
+          </div>
+        </a>
+        <a href="./src/question.html?quiz-subject=accessibility" tabindex="4">
+          <div class="menu-item-container">
+            <div class="accessibility-icon">
+              <img src="./src/assets/images/icon-accessibility.svg">
+            </div>
+            <div class="medium-text"> Accessibility </div>
+          </div>
+        </a>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

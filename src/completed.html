@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="completed.js"></script>
+  
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-container">
+        <div class="subject-icon"><img src="./assets/images/icon-html.svg"></div>
+        <div id="subject-label" class="medium-text"><h3>HTML</h3></div>
+      </div>
+      <div class="toggle-container">
+        <img src="./assets/images/icon-sun-dark.svg" alt="Light color">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <img src="./assets/images/icon-moon-dark.svg" alt="Dark color">
+      </div>
+    </header>
+    <div class="main">
+      
+    <p class="title">
+      Quiz completed
+    </p>
+    <p class="title"><strong> You scored...</strong></p>
+    </div>
+    
+    <aside>
+      <div class="result-container">
+        <div class="header-container">
+          <div class="subject-icon"><img src="./assets/images/icon-html.svg"></div>
+          <div id="subject-label" class="medium-text"><h3>HTML</h3></div>
+        </div>
+        <div id="score-value">
+          8
+        </div>
+        <div id="score-text" class="small-letters">
+          <!-- score --> out of 10
+        </div>
+      </div>
+      
+      <div class="vertical-menu">
+        <a href="./../index.html" id="submit-button" tabindex="1">
+          <div>
+            <strong>Play Again</strong>
+          </div>
+        </a>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>

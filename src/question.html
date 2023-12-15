@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  
+  <title>Frontend Mentor | Frontend quiz app</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-container">
+        <div class="subject-icon"><img src="./assets/images/icon-html.svg"></div>
+        <div id="subject-label" class="medium-text"><h3>HTML</h3></div>
+      </div>
+      <div class="toggle-container">
+        <img src="./assets/images/icon-sun-dark.svg" alt="Light color">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+        <img src="./assets/images/icon-moon-dark.svg" alt="Dark color">
+      </div>
+    </header>
+    <div class="main">
+      <p class="small-letters" id="question-number">Question <!-- number --> of 10</p>
+      <div class="question">
+        <p class="question-title"><strong id="question-value">Frontend Quiz!</strong></p>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-value"></div>
+      </div>
+    </div>
+    
+    <aside>
+      <div class="vertical-menu">
+        <a href="#" id="option-1" tabindex="1">
+          <div class="menu-item-container">
+            <div class="option-icon">
+              <strong>A</strong>
+            </div>
+            <div id="option-text-1" class="medium-text"> CSS </div>            
+          </div>
+        </a>
+        <a href="#" id="option-2" tabindex="2">
+          <div class="menu-item-container">
+            <div class="option-icon">
+              <strong>B</strong>
+            </div>
+            <div id="option-text-2" class="medium-text"> CSS </div>            
+          </div>
+        </a>
+        <a href="#" id="option-3" tabindex="3">
+          <div class="menu-item-container">
+            <div class="option-icon">
+              <strong>C</strong>
+            </div>
+            <div id="option-text-3" class="medium-text"> CSS </div>
+          </div>
+        </a>
+        <a href="#" id="option-4" tabindex="4">
+          <div class="menu-item-container">
+            <div class="option-icon">
+              <strong>D</strong>
+            </div>
+            <div id="option-text-4" class="medium-text"> CSS </div>
+          </div>
+        </a>
+        <a href="#" id="submit-button" tabindex="5">
+          <div>
+            <strong>Submit Answer</strong>
+          </div>
+        </a>
+      </div>
+    </aside>
+  </div>
+</body>
+</html>
