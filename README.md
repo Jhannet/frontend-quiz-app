@@ -53,9 +53,9 @@ Users should be able to:
 
 ### What I learned
 
-I learned to create a html structure for a page from scratch, considering tags like header, aside and to create div containers for main sections.
-I used CSS grid layout to align positions of main elements of the page structure and with @media I defined styles for different device sizes.
-I added a font style for all the pages with local font style files.
+I learned to create a html structure for a page from scratch, considering tags like header, aside and to create div containers for main sections.\
+I used CSS grid layout to align positions of main elements of the page structure and with @media I defined styles for different device sizes.\
+I added a font style for all the pages with local font style files.\
 To design icons I used css properties to set special borders and background colors, I used flexbox to align the content.
 ```css
 .option-icon {
@@ -72,16 +72,16 @@ To design icons I used css properties to set special borders and background colo
     text-align: center;
 }
 ```
-With Javascript and JQuery I loaded data dynamically and set them on the pages in a determined moment, implementing all the required functionality.
-To pass data from a page to another I did it using url params.
-For animations I used css properties like :hover, :active, :focus and :checked and with JQuery adding and removing elements and css classes.
+With Javascript and JQuery I loaded data dynamically and set them on the pages in a determined moment, implementing all the required functionality.\
+To pass data from a page to another I did it using url params.\
+For animations I used css properties like :hover, :active, :focus and :checked and with JQuery adding and removing elements and css classes.\
 With JQuery I implemented event listeners, to set functionality for some elements.
 ```js
 $(`#option-${selectedOption}`).addClass("wrong-answer");
 $(`#option-${selectedOption} .option-icon`).addClass("error-color");
 $(`#option-${selectedOption} .menu-item-container`).append(`<div class="error-icon"><strong>x</strong></div>`);
 ```
-I learned about accessibility and implemented it with tabindex attributes in 'a' tags.
+I learned about accessibility and implemented it with tabindex attributes in 'a' tags.\
 I learned to write code for many of the same css classes just in one statement block.
 
 ### Continued development
